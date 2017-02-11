@@ -1,0 +1,20 @@
+Mean: {
+    title: MEAN web basic architect,
+    subTitle: Nodejs, angularjs1, socketIO, test framework, grunt automation,
+    date: 2016.12,
+    img_link: /images/mean.png,
+    link: https://github.com/wghglory/nodejs.mea1n4.testAndAutomation,
+    tag: ["Mongodb","AngularJs","Nodejs","Express","Mongoose"],
+    abstract: "Nodejs, angularjs1, socketIO, test framework, grunt automation"
+}
+MVC: {
+    title: MEAN blog demo,
+    subTitle: Nodejs, angularjs1, jQuery,
+    date: 2017.2,
+    img_link: /images/nodejs.blog.ejs.png,
+    link: https://github.com/wghglory/nodejs.blog.ejs,
+    tag: ["Mongodb","AngularJs","Nodejs","Express","Mongoose"],
+    abstract: "This project includes admin CRUD, regular user authentication, article review, etc."
+}
+# Gallery: /gallery/
+# Archives: /archives/

@@ -38,11 +38,11 @@ seo: false
 menu:
   home: /
   categories: /categories
+  tags: /tags
   works: /works
   #archives: /archives
-  tags: /tags
   #about: /about
-  resume: https://wghglory.github.io/resume/    #/resume
+  resume: /resume   #https://wghglory.github.io/resume/
   #sitemap: /sitemap.xml
   # commonweal: /404
 
@@ -319,7 +319,7 @@ mathjax:
 #google_site_verification:
 
 # Google Analytics
-#google_analytics:
+google_analytics: UA-91771069-1
 
 # Yandex Webmaster tools verification setting
 # See: https://webmaster.yandex.ru/
@@ -372,10 +372,11 @@ vkontakte_api:
 
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
+# add post views
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: true
+  app_id: E6rF07nXwdjW2bqLM59LERB4-gzGzoHsz
+  app_key: SpkVez7QIOXIDXh5iqoMt338
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/

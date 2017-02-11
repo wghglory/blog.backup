@@ -5,14 +5,14 @@
 # Site
 title: Guanghui's Notes
 subtitle:
-description: A goal is not always meant to be reached, it often serves simply as something to aim at
+description: A very lame cool person #A goal is not always meant to be reached, it often serves simply as something to aim at
 author: Guanghui Wang
 language: en #zh-Hans
 timezone:
 
 # Review
-disqus_shortname: guanghuiwang
-#duoshuo_shortname: guanghuiwang
+#disqus_shortname: guanghuiwang
+duoshuo_shortname: guanghuiwang
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -32,7 +32,7 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :year-:month-:day-:title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
