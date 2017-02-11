@@ -38,7 +38,7 @@ seo: false
 menu:
   home: /
   categories: /categories
-  #works: /works
+  works: /works
   #archives: /archives
   tags: /tags
   #about: /about
