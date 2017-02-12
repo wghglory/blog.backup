@@ -37,9 +37,9 @@ seo: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  categories: /categories
-  tags: /tags
+  #categories: /categories
   works: /works
+  tags: /tags
   #archives: /archives
   #about: /about
   resume: /resume   #https://wghglory.github.io/resume/

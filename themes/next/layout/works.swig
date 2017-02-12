@@ -10,28 +10,14 @@
 
 {% block content %}
 
-  <div id="posts" class="posts-expand">
+  <div id="posts" class="posts-expand" style="margin:0 0 30px 0;padding:0;color:rgb(0, 133, 161);">
     {{ post_template.render(page) }}
-
-    <div class="post-spread">
-      {% if theme.jiathis %}
-        {% include '_partials/share/jiathis.swig' %}
-      {% elseif theme.baidushare %}
-        {% include '_partials/share/baidushare.swig' %}
-      {% elseif theme.add_this_id %}
-        {% include '_partials/share/add-this.swig' %}
-      {% elseif theme.duoshuo_shortname and theme.duoshuo_share %}
-        {% include '_partials/share/duoshuo_share.swig' %}
-      {% endif %}
-    </div>
   </div>
-
-
 
     <style>
         /*整个作品展示区*/
         section .works-area {
-            margin-top: -30px;  
+            margin-top: 46px;
         }
 
         .works-area .works-item {
@@ -176,16 +162,11 @@
     </div>
 
 
-
-
-
-
 {% endblock %}
 
 {% block sidebar %}
-  {{ sidebar_template.render(true) }}
+  {{ sidebar_template.render(false) }}
 {% endblock %}
-
 
 {% block script_extra %}
   {% include '_scripts/pages/post-details.swig' %}

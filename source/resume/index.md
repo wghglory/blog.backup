@@ -8,17 +8,11 @@ type: quote
 
 ### [Click to review resume in Chinese](https://github.com/wghglory/resume/blob/master/resume_chinese.md)
 
-# Contact Information
-
-- Phone (US): +1(412)533-2195, +1(619)431-2468
-- Email: wghglory89@gmail.com (preferred)
-- Skype: wghglory89
-- QQ: 747776580
-- Linkedin: https://www.linkedin.com/in/guanghuiwang
-
 # Personal Information
 
  - Guanghui Wang
+ - Phone (US): +1(412)xxx-xxxx
+ - Email: wghglory89@gmail.com
  - Experience: 7 years
  - Github: http://github.com/wghglory
  - Expected position: senior full stack developer (.net/nodejs) / Team Leader

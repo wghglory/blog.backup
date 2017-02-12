@@ -2,17 +2,73 @@
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
+## Themes: https://hexo.io/themes/
+theme: anisina #next
+
 # Site
-title: Guanghui's Notes
+title: Guanghui
 subtitle:
 description: A very lame cool person #A goal is not always meant to be reached, it often serves simply as something to aim at
 author: Guanghui Wang
 language: en #zh-Hans
 timezone:
 
+# custom Site settings
+# more detail check out docs
+SEOTitle: Guanghui's blog
+header-img: #http://www.wikiexclusive.com/phsychology-and-relationship/images/girl.jpg
+email: wghglory89@gmail.com
+keyword: # seo key words
+
+favicon: /favicon.ico # your favicon png
+# custom end
+
+# SNS settings
+# RSS:
+#weibo_username: wghglory89
+#zhihu_username: wghglory
+github_username: wghglory
+#twitter_username: ehazon
+facebook_username: wghglory
+linkedin_username: guanghuiwang
+
 # Review
 #disqus_shortname: guanghuiwang
 duoshuo_shortname: guanghuiwang
+# Share component is depend on Comment so we can NOT use share only.
+duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+
+# Build settings
+anchorjs: false                        # if you want to customize anchor. check out line:181 of `post.html`
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id:
+# Google Analytics
+ga_track_id: UA-91771069-1            # Format: UA-xxxxxx-xx
+ga_domain: wghglory.github.io
+
+# Sidebar settings
+sidebar-about-description: A very lame cool person #光辉岁月 # 个人描述
+sidebar-avatar: /images/avatar.png    # use absolute URL
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 0              # A tag will be featured if the size of it is more than this condition value
+
+# friends
+# friends: [
+# 	{
+#         title: "your friend title",
+#         href: "your fiend path"
+# 	},
+# 	{
+#         title: "your friend title 2",
+#         href: "your friend path 2"
+# 	}
+# ]
+
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -69,11 +125,6 @@ time_format: HH:mm:ss
 per_page: 10
 pagination_dir: page
 
-# Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
-theme: next #Anisina
-
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
@@ -95,3 +146,27 @@ feed:
 #sitemap
 sitemap:
   path: sitemap.xml
+
+# img CDN path
+cdn-url:  # 你的CDN地址
+
+# Qiniu imageView2 API
+# More info http://developer.qiniu.com/code/v6/api/kodo-api/image/imageview2.html
+clip-content: "?imageView2/1/w/1400/h/400/interlace/1/q/90"
+clip-avatar: "?imageView2/2/w/300/h/300/interlace/1/q/90"
+clip-home-post-bg: "?imageView2/1/w/800/h/300/interlace/1/q/70"
+
+# post default images, when viewing the post detail, picture on the top
+post-default-img: /images/default-post.jpg
+post-default-img-mobile: /images/default-post.jpg #移动端显示的图片
+
+tag-img: /images/tag.jpg
+
+# search api , set your custom key
+#swiftype_key:
+
+# add post views
+leancloud_visitors:
+  enable: true
+  app_id: E6rF07nXwdjW2bqLM59LERB4-gzGzoHsz
+  app_key: SpkVez7QIOXIDXh5iqoMt338

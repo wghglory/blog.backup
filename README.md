@@ -1,13 +1,17 @@
-# My hexo-theme-next blog backup
+# My hexo-theme-next and anisina blog backup
 
 You're most welcome to review my blog: https://wghglory.github.io
+
+This blog theme is based on [@Haojen Ma](http://haojen.github.io). Thanks for creating this beautiful theme!
+
+I changed several places, like adding resume, include local pictures, etc.
 
 ## Set up
 
 Make sure `npm install hexo-cli -g` to install hexo before start.
 
 ```bash
-git clone https://github.com/wghglory/blog.theme-next.backup.git
+git clone https://github.com/wghglory/blog.backup.git
 npm install
 ```
 ## Write posts
@@ -32,3 +36,9 @@ git add .
 git commit -m "update"
 git push origin master
 ```
+
+## Issue solution
+- theme-next doesn't have `hexo g` error if putting
+    404.html and other html blog/source. But to avoid errors when shifting theme, please put html in themes/next/source
+- anisina: `hexo generate` error: body is undefined.
+    404.html and other html cannot be put in blog/source. They should be in themes/anisina/source

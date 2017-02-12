@@ -1,7 +1,10 @@
 ---
 title: {{ title }}
+subtitle:
 date: {{ date }}
-tags: [javascript]
-categories: 编程
+tags: []
+header-img:
 comments: true
+cdn: header-off
+layout: post
 ---
