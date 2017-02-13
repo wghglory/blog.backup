@@ -6,7 +6,7 @@ cdn: header-off
 layout: post
 date: 2017-02-11 19:21:21
 subtitle: Enjoy your time and make a progress
-header-img: afterwork.png
+header-img: afterwork.jpg
 ---
 
 This article is from [Kalyana Sundaram
