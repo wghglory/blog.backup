@@ -17,13 +17,13 @@ layout: page
         <h2 class="post-title">
             <%- post.title || "未命名" %>
         </h2>
-        <p class="post-meta">
+        <p class="post-meta" style="margin:8px 0;">
             <i class="fa fa-calendar" aria-hidden="true"></i> <%= post.date.format(config.date_format) %>
         </p>
         <% if (post.subtitle && post.subtitle.length) { %>
-        <h3 class="post-subtitle">
+        <!-- <h3 class="post-subtitle">
             <%- post.subtitle %>
-        </h3>
+        </h3> -->
         <% } %>
         <div class="post-content-preview">
             <p>

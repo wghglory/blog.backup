@@ -779,7 +779,7 @@ img::-moz-selection {
     line-height: 28px;
     margin: 0 2px;
     margin-bottom: 8px;
-    background: #D6D6D6;
+    background: rgb(200,200,200);
 }
 
 #tag_cloud a:hover,
@@ -861,7 +861,7 @@ img::-moz-selection {
 
 @media only screen and (min-width: 768px) {
     .one-tag-list .post-preview {
-        margin-left: 20px;
+        margin-left: 28px;
     }
 
     .one-tag-list .post-preview > a > .post-title {
