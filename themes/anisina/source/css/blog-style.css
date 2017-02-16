@@ -143,6 +143,10 @@ img.shadow {
     border: 1px solid #eee !important;
 }
 
+.table th {
+    text-align: center !important;
+}
+
 hr.small {
     max-width: 100px;
     margin: 15px auto;

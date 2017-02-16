@@ -33,11 +33,12 @@ facebook_username: wghglory
 linkedin_username: guanghuiwang
 
 # Review
-#disqus_shortname: guanghuiwang
-duoshuo_shortname: guanghuiwang   # theme-next
-duoshuo_username: guanghuiwang  # anisina
+disqus_shortname: guanghuiwang
+disqus_username: guanghuiwang
+#duoshuo_shortname: guanghuiwang   # theme-next
+#duoshuo_username: guanghuiwang  # anisina
 # Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+#duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
 # Build settings
 anchorjs: false                        # if you want to customize anchor. check out line:181 of `post.html`
