@@ -9,8 +9,7 @@ subtitle: Enjoy your time and make a progress
 header-img: afterwork.jpg
 ---
 
-This article is from [Kalyana Sundaram
-](https://www.linkedin.com/pulse/after-work-what-determines-your-future-spend-one-hour-sundaram). Thanks for your great advices!
+This article is from [Kalyana Sundaram.](https://www.linkedin.com/pulse/after-work-what-determines-your-future-spend-one-hour-sundaram) Thanks for your great advices!
 
 You finish work at 6 pm, go to bed at 12 midnight. Within these six hours, how do you spend them? Watching TV?
 In fact, the activities you do between 6 am and 12 midnight, the importance of it is beyond your imagination.

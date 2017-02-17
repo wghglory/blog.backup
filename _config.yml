@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 ## Themes: https://hexo.io/themes/
-theme: anisina #next
+theme: anisina  #next
 
 # Site
 title: Guanghui
@@ -52,7 +52,7 @@ ga_domain: wghglory.github.io
 
 # Sidebar settings
 sidebar-about-description: A very lame cool person #光辉岁月 # 个人描述
-sidebar-avatar: /images/avatar.png    # use absolute URL
+sidebar-avatar: /images/avatar.jpg    # use absolute URL
 
 
 # Featured Tags
