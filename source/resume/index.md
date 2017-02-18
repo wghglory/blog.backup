@@ -137,4 +137,4 @@ UPMC Panel Management Application provides a featured management system for the 
 
 ### [Click to review resume in Chinese](https://github.com/wghglory/resume/blob/master/resume_chinese.md)
 
-### [Click and go to download page, you will see download button on the right side](https://github.com/wghglory/resume/blob/master/resume_english.pdf)
+### <a href="https://github.com/wghglory/guanghui.resume/raw/master/resume_english.pdf">Download English Resume</a>
