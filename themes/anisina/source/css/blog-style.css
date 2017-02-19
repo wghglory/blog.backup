@@ -158,6 +158,11 @@ pre,
     -webkit-overflow-scrolling: touch;
 }
 
+.highlight .table-responsive{
+    max-height: 1000px;
+    transition: .6s all;
+}
+
 pre code {
     display: block;
     width: auto;

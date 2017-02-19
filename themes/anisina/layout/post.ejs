@@ -68,7 +68,7 @@ layout: layout
             <!-- Post Container -->
             <div class="col-lg-8 col-lg-offset-1 col-sm-9 post-container">
                 <%- page.content %>
-                <hr>
+                <!-- <hr> -->
                 <% if(config['duoshuo_share'] && config['duoshuo_username']) { %>
                 <!-- 多说 Share start -->
                 <div class="ds-share"
@@ -110,6 +110,15 @@ layout: layout
                     </li>
                     <% } %>
                 </ul>
+
+                <!-- social-share start -->
+                <div class="social-share" style="padding-top:20px;text-align:center;"></div>
+                <!--  css & js -->
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css
+                ">
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
+                <!-- social-share end -->
+
 
                 <% if(config['duoshuo_username']) { %>
                 <!-- 多说评论框 start -->
@@ -180,6 +189,15 @@ layout: layout
 
     </div>
 </article>
+
+<div id="music">
+    <audio id="bell" src="/music/Faded.mp3" preload="auto" loop autoplay></audio>
+</div>
+<!-- <embed style="position:fixed;right:0;bottom:0;"; src="http://www.xiami.com/widget/274513503_1776204257/singlePlayer.swf" type="application/x-shockwave-flash" width="257" height="33" wmode="transparent"></embed> -->
+<!-- <embed style="position:fixed;right:0;bottom:-44px;"; src="http://www.xiami.com/widget/274513503_1775988866,1774426379,1770760772,1772121439,3567313,_235_246_FF8719_494949/multiPlayer.swf" allowscriptaccess="always" quality="high" wmode="opaque" menu="false" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="235" height="246" title="Adobe Flash Player"> -->
+<!-- music control -->
+<%- js('js/music.js') %>
+
 
 <% if(config['duoshuo_username']) { %>
 <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
