@@ -17,7 +17,18 @@
         var music = document.getElementById('music');
         var onOff = true;
 
-        addListenerMulti(music, 'touchstart click', function() {
+        // window.onresize = function() {
+        //     var winW = document.documentElement.clientWidth; // 获取视界宽度
+        //     console.log(winW)
+        //     if (winW < 992) {
+        //         audio.pause();
+        //     } else {
+        //         audio.play();
+        //     }
+        // }
+
+        addListenerMulti(music, 'click touchstart', function() {
+
             if (onOff) {
                 this.classList.add('active');
                 audio.play();
@@ -26,13 +37,14 @@
                 audio.pause();
             }
             onOff = !onOff;
+
         });
 
-        var event = new Event('touchstart');
+        var event = new Event('click');
         // Dispatch the event. like trigger()
         music.dispatchEvent(event);
     }
 
     playMusic();
-    
+
 })();
