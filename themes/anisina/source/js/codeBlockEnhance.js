@@ -1,7 +1,14 @@
 // Insert fold/unfold and copy button
 (function() {
     $('.highlight').each(function() {
-        var foldHtml = '<span class="toggle-code minus" style="position: absolute; border: 1px solid #0177b5; width: 14px; height: 14px; line-height: 12px; text-align: center;cursor:pointer;">-</span>';
+        var $divTableResponsive = $(this).first('div'); //.table-responsive classname seems not loaded
+
+        var foldHtml = '';
+
+        if ($divTableResponsive.height() > 1000) {
+            foldHtml = '<span class="toggle-code minus" style="position: absolute; border: 1px solid #0177b5; width: 14px; height: 14px; line-height: 12px; text-align: center;cursor:pointer;">-</span>';
+        }
+
         var copyHtml = '<span class="btn-clipboard" style="position: absolute; right: 15px; background: #9fd691; font-size: 12px; padding: 4px; color: #fff; cursor: pointer; transition: .5s all;">Copy</span>';
         $(this).prepend(foldHtml + copyHtml);
     });
