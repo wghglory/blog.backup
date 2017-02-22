@@ -8,14 +8,21 @@ type: quote
 
 ### [Click to review resume in Chinese](https://github.com/wghglory/resume/blob/master/resume_chinese.md)
 
+# Contact Information
+
+- Email: wghglory89@gmail.com (preferred)
+- Phone (US): +1(412)533-2195, +1(619)431-2468
+- Skype: wghglory89
+- QQ: 747776580
+- Linkedin: https://www.linkedin.com/in/guanghuiwang
+
 # Personal Information
 
  - Guanghui Wang
- - Phone (US): +1(412)xxx-xxxx
- - Email: wghglory89@gmail.com
  - Experience: 7 years
- - Github: http://github.com/wghglory
- - Expected position: senior full stack developer (.net/nodejs) / Team Leader
+ - Github：https://github.com/wghglory
+ - Blog: https://wghglory.github.io
+ - Expected position: senior full stack developer (.net/nodejs) / Team Lead
 
 # Education
 
@@ -126,14 +133,14 @@ UPMC Panel Management Application provides a featured management system for the 
 
 # Skillsets
 
-- Server: .Net MVC | Webapi | C# | Nodejs | EntityFramework | Ado.net | WCF | WebService | Unity | Spring.net | Quartz.net | Lucene.net | Nhibernate | Dapper | PetaPoco | Memcached
-- Frontend languages: Html5 | CSS | JavaScript | JSON
-- Frontend libraries: Bootstrap | AngularJS | JQuery | JQuery-UI | JQuery-mobile
-- Frontend tools: Bower | PhoneGap
-- Database: MSSQL | Oracle | MySQL | Mongodb | Redis
-- Version control, automation: Svn | Git | Grunt | TFS
-- Testing libraries: Mocha | Should.js | Nunit | Karma | Jasmine | Phantomjs
-- Node packages: body-parser | compression | connect-flash | ejs | method-override | mongoose | morgan | passport ...
+- Server: .Net MVC / Webapi / C# / Nodejs / EntityFramework / Ado.net / WCF / WebService / Unity / Spring.net / Quartz.net / Lucene.net / Nhibernate / Dapper / PetaPoco / Memcached
+- Frontend languages: Html5 / CSS / JavaScript / JSON
+- Frontend libraries: Bootstrap / AngularJS / JQuery / JQuery-UI / JQuery-mobile
+- Frontend tools: Bower / PhoneGap
+- Database: MSSQL / Oracle / MySQL / Mongodb / Redis
+- Version control, automation: Svn / Git / Grunt / TFS
+- Testing libraries: Mocha / Should.js / Nunit / Karma / Jasmine / Phantomjs
+- Node packages: body-parser / compression / connect-flash / ejs / method-override / mongoose / morgan / passport ...
 
 ### [Click to review resume in Chinese](https://github.com/wghglory/resume/blob/master/resume_chinese.md)
 
