@@ -212,6 +212,17 @@ layout: layout
                         </li>
                         <% } %>
 
+                        <% if (config.jianshu_username) { %>
+                        <li>
+                            <a target="_blank" href="https://www.jianshu.com/u/<%= config.jianshu_username %>">
+                                        <span class="fa-stack fa-lg" style="color:#e58c7c;">
+                                            <i class="fa fa-circle fa-stack-2x"></i>
+                                            <i class="fa fa-stack-1x fa-inverse">简</i>
+                                        </span>
+                            </a>
+                        </li>
+                        <% } %>
+
                         <% if (config.facebook_username) { %>
                         <li>
                             <a target="_blank" href="https://www.facebook.com/<%= config.facebook_username %>">
