@@ -19,4 +19,4 @@ Today is a good today. It just starts!
 
 Have a good one, my friend!
 
-{% asset_img sea.jpg Sea the world %}
+<!-- {% asset_img sea.jpg Sea the world %} -->

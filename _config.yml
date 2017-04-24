@@ -97,7 +97,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: true #true:在建立文件时，Hexo会自动建立一个与文章同名的文件夹，可以把与该文章相关的所有资源都放到那个文件夹
+post_asset_folder: true #todo:set false and delete old mvc-lession when more articles. #true:在建立文件时，Hexo会自动建立一个与文章同名的文件夹，可以把与该文章相关的所有资源都放到那个文件夹
 relative_link: false
 future: true
 highlight:
