@@ -1,6 +1,6 @@
 ---
 title: angular2-chapter02 -- Creating and Communicating Between Components
-tags: []
+tags: [angular2]
 comments: true
 cdn: header-off
 layout: post
