@@ -1,5 +1,5 @@
----
-layout: layout
+--- 
+layout: layout 
 ---
 <style>
     * {
@@ -10,8 +10,8 @@ layout: layout
         height: 560px;
         background-color: #62A4FF;
     }
-
     /*头像*/
+
     .bg-header .avatar img {
         border-radius: 50%;
         margin-top: 100px;
@@ -22,20 +22,20 @@ layout: layout
     .bg-header h2 {
         color: white;
     }
-
     /*姓名*/
+
     .bg-header h1 {
         letter-spacing: 2px;
         text-shadow: 0 0 10px rgba(15, 15, 15, .3);
     }
-
     /*描述*/
+
     .bg-header h2 {
         font-size: 18px;
         margin-top: 12px;
     }
-
     /*整个作品展示区*/
+
     section .works-area {
         margin-top: -150px;
     }
@@ -49,6 +49,7 @@ layout: layout
 
     .works-item-img {
         margin: auto -26px;
+        padding: 1px;
     }
 
     .works-item-img img {
@@ -147,7 +148,7 @@ layout: layout
                         <%= config.author %>
                     </h1>
                     <%- page.content %>
-                    <!-- <h2>my personal works</h2> -->
+                        <!-- <h2>my personal works</h2> -->
                 </div>
             </div>
         </div>
@@ -158,37 +159,41 @@ layout: layout
                         col-md-8 col-md-offset-2
                       works-area">
                 <% for(var obj in site.data.project){ %>
-                <div class="works-item">
-                    <div class="title">
-                        <h3>
-                            <%= site.data.project[obj].title %>
-                        </h3>
-                        <span class="title-date text-muted">
+                    <div class="works-item">
+                        <div class="title">
+                            <h3>
+                                <%= site.data.project[obj].title %>
+                            </h3>
+                            <span class="title-date text-muted">
                             <%= site.data.project[obj].date %>
                         </span>
-                    </div>
-                    <div class="works-item-img">
-                        <img src="<%= site.data.project[obj].img_link %>">
-                    </div>
-                    <div class="works-content">
-                        <div class="tag text-warning">
-                            <% for (var arrayVal of site.data.project[obj].tag ){ %>
-                            <span>
+                        </div>
+                        <div class="works-item-img">
+                            <img src="<%= site.data.project[obj].img_link %>">
+                        </div>
+                        <div class="works-content">
+                            <div class="tag text-warning">
+                                <% for (var arrayVal of site.data.project[obj].tag ){ %>
+                                    <span>
                                     <%= arrayVal %>
                                 </span>
-                            <% } %>
-                        </div>
-                        　
-                        <p class="subtitle"> <%= site.data.project[obj].subTitle %> </p>
+                                    <% } %>
+                            </div>
+                        
+                            <p class="subtitle">
+                                <%= site.data.project[obj].subTitle %>
+                            </p>
 
-                        <p class="text-muted"> <%- site.data.project[obj].abstract %> </p>
-                    </div>
-                    <div class="footer clearfix">
-                        <a class=" btn btn-default" href="<%= site.data.project[obj].link %>" target="_blank"> Open
+                            <p class="text-muted">
+                                <%- site.data.project[obj].abstract %>
+                            </p>
+                        </div>
+                        <div class="footer clearfix">
+                            <a class=" btn btn-default" href="<%= site.data.project[obj].link %>" target="_blank"> Open
                             it</a>
+                        </div>
                     </div>
-                </div>
-                <% } %>
+                    <% } %>
             </div>
         </section>
     </div>

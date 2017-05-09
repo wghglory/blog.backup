@@ -1,20 +1,38 @@
+reactGithubBattle: {
+    title: Github Battle,
+    subTitle: "React",
+    date: 2017.5,
+    img_link: /images/react-github-battle.png,
+    link: https://github-battle-react-cf433.firebaseapp.com,
+    tag: ["React"],
+    abstract: "This project interacts with github api. You can find the most popular projects in github by language. Source code: https://github.com/wghglory/react-fundamental. Main concepts: components, props, state, react-router, etc."
+}
+angular2Fundamental: {
+    title: Angular Events,
+    subTitle: "Angular2",
+    date: 2017.4,
+    img_link: /images/angular2.png,
+    link: https://github.com/wghglory/angular2-fundamental,
+    tag: ["Angular2"],
+    abstract: "Angular2 fundamentals tutorials."
+}
 MeanBlog: {
     title: MEAN blog demo,
     subTitle: "Nodejs, jQuery, ES2015",
     date: 2017.1,
     img_link: /images/nodejs.blog.ejs.png,
     link: https://github.com/wghglory/nodejs.blog.ejs,
-    tag: ["Mongodb","AngularJs1","Nodejs","Express","Mongoose"],
+    tag: ["Mongodb","Angular1","Nodejs","Express","Mongoose"],
     abstract: "This project includes admin CRUD, regular user authentication, article review, etc."
 }
 Mean: {
     title: MEAN web basic architect,
-    subTitle: "Nodejs, angularjs1, socketIO, test framework, grunt automation",
+    subTitle: "Nodejs, Angular1, socketIO, test framework, grunt automation",
     date: 2016.12,
     img_link: /images/mean.png,
     link: https://github.com/wghglory/nodejs.mea1n4.testAndAutomation,
-    tag: ["Mongodb","AngularJs","Nodejs","Express","Mongoose"],
-    abstract: "This demo porjects uses Nodejs, angularJs1, socketIO, test framework, grunt automation and horizontal architecture."
+    tag: ["Mongodb","Angular1","Nodejs","Express","Mongoose"],
+    abstract: "This demo porjects uses Nodejs, Angular1, socketIO, test framework, grunt automation and horizontal architecture."
 }
 WorldWeather: {
     title: World weather demo,
@@ -22,6 +40,6 @@ WorldWeather: {
     date: 2015.2,
     img_link: /images/worldWeather.png,
     link: https://github.com/wghglory/guanghui.Weather,
-    tag: ["MVC","WebApi","AngularJs1","Bootstrap"],
+    tag: ["MVC","WebAPI","Angular1","Bootstrap"],
     abstract: "This project uses ado.net to retrieve data from local sqlserve db. AngularJs controller, service, filter, directive are used to talk with server."
 }
