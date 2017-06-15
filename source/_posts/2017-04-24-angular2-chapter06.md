@@ -1,6 +1,6 @@
 ---
 title: angular2-chapter06 -- Collecting Data with Forms and Validation
-tags: [angular2]
+tags: [Angular2]
 comments: true
 cdn: header-off
 layout: post

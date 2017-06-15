@@ -1,6 +1,6 @@
 ---
 title: angular2-chapter04 -- Create Services
-tags: [angular2]
+tags: [Angular2]
 comments: true
 cdn: header-off
 layout: post

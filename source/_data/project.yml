@@ -5,7 +5,7 @@ reactGithubBattle: {
     img_link: /images/react-github-battle.png,
     link: https://github-battle-react-cf433.firebaseapp.com,
     tag: ["React"],
-    abstract: "This project interacts with github api. You can find the most popular projects in github by language. Source code: https://github.com/wghglory/react-fundamental. Main concepts: components, props, state, react-router, etc."
+    abstract: "React project includes basic react implementations, animation, github api interaction and chartjs visualization. You can find the most popular projects in github by language. Source code: https://github.com/wghglory/react-fundamental. Main concepts: components, props, state, react-router, etc."
 }
 angular2Fundamental: {
     title: Angular Events,

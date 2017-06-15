@@ -1,6 +1,6 @@
 ---
 title: angular2-chapter09 -- Displaying Data with Pipes
-tags: [angular2]
+tags: [Angular2]
 comments: true
 cdn: header-off
 layout: post

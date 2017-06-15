@@ -1,6 +1,6 @@
 ---
 title: angular2-chapter03 -- Exploring the New Template Syntax
-tags: [angular2]
+tags: [Angular2]
 comments: true
 cdn: header-off
 layout: post

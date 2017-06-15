@@ -1,6 +1,6 @@
 ---
 title: angular2-chapter11 -- Create Directives and Advanced Component
-tags: [angular2]
+tags: [Angular2]
 comments: true
 cdn: header-off
 layout: post
@@ -468,3 +468,4 @@ export class SimpleModal {
     }
 }
 ```
+

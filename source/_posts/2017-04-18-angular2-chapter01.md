@@ -1,6 +1,6 @@
 ---
 title: angular2-chapter01 -- systemJS, tsconfig, package.json; first component, module and bootstrap module
-tags: [angular2]
+tags: [Angular2]
 comments: true
 cdn: header-off
 layout: post
